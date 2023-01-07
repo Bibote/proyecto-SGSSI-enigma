@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-from pyenigma.rotor import *
+from rotor import *
 
 class Enigma(object):
     """Represents an Enigma machine.
