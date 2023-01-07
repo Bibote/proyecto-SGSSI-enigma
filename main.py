@@ -12,6 +12,16 @@ __revision__ = "$Date: 2020/05/17 $"
 __copyright__ = "Copyright (c) Christophe Goessen, Cedric Bonhomme"
 __license__ = "GPLv3"
 
+""""This interface includes code from a Python script created by Christophe Goessen and Cedric Bonhomme. The original script is licensed under the GNU General Public License and is available at https://github.com/cedricbonhomme/pyEnigma.""""
+#Authors of the interface
+__authorInterface__="Millán Sáez, Jon Gorostegi"
+__versionInterface__="0.1.0"
+__dateInterface__="$Date: 2023/02/07 $"
+__licenseInterface__="GPLv3"
+
+
+
+
 print("Enigma machine simulator")
 
 maquina = enigma.Enigma(rotor.ROTOR_Reflector_B, rotor.ROTOR_I,
