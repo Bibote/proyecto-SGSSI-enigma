@@ -37,7 +37,7 @@ def encriptar():
     etiqueta_texto_encriptado.config(text="Texto encriptado: " + texto_encriptado)
 
 def encriptarArchivo():
-    #Encripta el archivo seleccionado.
+    #Encripta el texto del archivo seleccionado.
     filetypes = (
         ('text files', '*.txt'),
         ('All files', '*.*')
@@ -73,11 +73,10 @@ def cambioMaquina():
 
 def comprobarPlugs():
     #Comprueba que el texto introducido en la caja de texto de los plugs sea correcto
-    #Comprueba que todas las letras estén en el array de letras
-    #Comprueba que haya un espacio entre cada par de letras
-    #Comprueba que haya un número par de letras
-    #Comprueba que haya 10 pares de letras
-    #Comprueba que no haya letras repetidas
+    #Que todas las letras estén en el array de letras
+    #Que haya un espacio entre cada par de letras
+    #Que haya 10 pares de letras
+    #Que no haya letras repetidas
     texto= caja_plugs.get().upper()
     if len(texto) != 29:
         etiqueta_resultado.config(text="Longitud incorrecta")
@@ -97,8 +96,9 @@ def comprobarPlugs():
     etiqueta_resultado.config(text="Plugs correctos")
     return True
 
-    #poner un mensaje de error si no es correcto
 
+
+#Arrays para los desplegables
 rotores = ["ROTOR_I", "ROTOR_II", "ROTOR_III", "ROTOR_IV", "ROTOR_V","ROTOR_VI", "ROTOR_VII", "ROTOR_VIII"]
 reflectores = ["ROTOR_Reflector_A", "ROTOR_Reflector_B", "ROTOR_Reflector_C"]
 letras= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
