@@ -14,7 +14,7 @@ __license__ = "GPLv3"
 
 """"This interface includes code from a Python script created by Christophe Goessen and Cedric Bonhomme. The original script is licensed under the GNU General Public License and is available at https://github.com/cedricbonhomme/pyEnigma.""""
 #Authors of the interface
-__authorInterface__="Millán Sáez, Jon Gorostegi"
+__authorInterface__="Millán Sáez, Jon Gorostegui"
 __versionInterface__="0.1.0"
 __dateInterface__="$Date: 2023/02/07 $"
 __licenseInterface__="GPLv3"
