@@ -1,6 +1,6 @@
 # Proyecto-SGSSI-enigma
  
-Proyecto desarrollado por Millán Sáez y Jon Gorostegi añadiendo una interfaz gráfica al proyecto enigma(https://github.com/cedricbonhomme/pyEnigma)
+Proyecto desarrollado por Millán Sáez y Jon Gorostegui añadiendo una interfaz gráfica al proyecto enigma(https://github.com/cedricbonhomme/pyEnigma)
 
 # Uso
 <pre>
